@@ -1054,7 +1054,7 @@ html, body{
         max-height: 580px;
         text-align: center;
         font-size: 18px;
-        display: flex;
+        display: flex !important;
         align-items: center;
         justify-content: center;
         border-radius: 1rem;
