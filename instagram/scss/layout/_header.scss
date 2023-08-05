@@ -1,0 +1,26 @@
+.header{
+    width: calc(100% - 32px);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 16px 16px 0;
+    z-index: 99999;
+    .align{
+        width: 100%;
+    }
+    .logo-img{
+        display: block;
+        width: 104px;
+        i{
+            width: 104px;
+            height: 28px;
+            background: url("../img/top-logo.png");
+            background-position: 0% 14%;
+            background-size: 104px 260px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            image-rendering: -webkit-optimize-contrast;
+        }
+    }
+}
+

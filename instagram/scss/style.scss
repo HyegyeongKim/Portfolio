@@ -1,0 +1,10 @@
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+@import './base/reset'; //reset, normalize
+@import './base/typography';
+
+@import './layout/header';
+@import './layout/align';
+
+@import './pages/home'; //main
