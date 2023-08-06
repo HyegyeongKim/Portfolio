@@ -18,7 +18,7 @@
 
     --modal-overlay: rgba(255, 255, 255, .5);
     --modal-bg: transparent;
-    --gitLink: #b741f5;
+    --modal-link: rgba(0,0,0,.5);
 
     --loop-tag: #000;
     --loop-tag-span: #a8a8a8;
@@ -66,7 +66,7 @@
 
     --modal-overlay: rgba(27, 27, 28, .5);
     --modal-bg: rgb(24 24 25 / 85%);
-    --gitLink: #b19af8;
+    --modal-link: rgba(0,0,0,.5);
 
     --loop-tag: #fff;
     --loop-tag-span: #717171;
@@ -2064,6 +2064,19 @@ html, body{
             padding: 12px 20px;
             font-size: 2rem;
         }
+        .modal-link_btn-wrap{
+            margin-top: 20px;
+        }
+            .modal-link_btn{
+                display: flex;
+                padding: 6px 16px;
+                justify-content: space-around;
+                background: var(--modal-link);
+                border-radius: 10px;
+            }
+                .modal-link_btn svg{
+                    margin-right: 8px;
+                }
     
     .main-content::after{
         display: none;
