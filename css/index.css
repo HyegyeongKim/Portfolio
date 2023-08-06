@@ -2067,14 +2067,14 @@ html, body{
         .modal-link_btn-wrap{
             margin-top: 20px;
         }
-            .modal-link_btn-wrap .modal-link_btn{
+            .modal-link_btn{
                 display: flex;
-                padding: 6px 16px;
+                padding: 6px 20px;
                 justify-content: space-around;
                 background: var(--modal-link);
                 border-radius: 10px;
             }
-                .modal-link_btn-wrap .modal-link_btn svg{
+                .modal-link_btn svg{
                     margin-right: 6px;
                 }
     
