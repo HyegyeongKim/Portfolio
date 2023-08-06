@@ -2075,10 +2075,10 @@ html, body{
                 border-radius: 10px;
             }
                 .modal-link_btn svg{
-                    margin-right: 8px;
+                    margin-right: 6px;
                 }
     
-                
+
     .main-content::after{
         display: none;
     }
