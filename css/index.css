@@ -2078,6 +2078,7 @@ html, body{
                     margin-right: 8px;
                 }
     
+                
     .main-content::after{
         display: none;
     }
