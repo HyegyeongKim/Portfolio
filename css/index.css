@@ -724,49 +724,49 @@ html, body{
         position: absolute;
         inset: 0;
     }    
-      
-      @keyframes marquee {
-        from {transform: translateX(0);}
-        to {transform: translateX(-100%);}
-      }
-      @-webkit-keyframes marquee {
-        from {transform: translateX(0);}
-        to {transform: translateX(-100%);}
-      }
-      @-moz-keyframes marquee {
-        from {transform: translateX(0);}
-        to {transform: translateX(-100%);}
-      }
-      @-ms-keyframes marquee {
-        from {transform: translateX(0);}
-        to {transform: translateX(-100%);}
-      }
-      @-o-keyframes marquee {
-        from {transform: translateX(0);}
-        to {transform: translateX(-100%);}
-      }
-      
-      
-      @keyframes marquee-r {
-        from {transform: translateX(-100%);}
-        to {transform: translateX(0);}
-      }
-      @-webkit-keyframes marquee-r {
-        from {transform: translateX(-100%);}
-        to {transform: translateX(0%);}
-      }
-      @-moz-keyframes marquee-r {
-        from {transform: translateX(-100%);}
-        to {transform: translateX(0);}
-      }
-      @-ms-keyframes marquee-r {
-        from {transform: translateX(-100%);}
-        to {transform: translateX(0);}
-      }
-      @-o-keyframes marquee-r {
-        from {transform: translateX(-100%);}
-        to {transform: translateX(0);}
-      }
+    
+    @keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+    }
+    @-webkit-keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+    }
+    @-moz-keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+    }
+    @-ms-keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+    }
+    @-o-keyframes marquee {
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+    }
+    
+    
+    @keyframes marquee-r {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+    }
+    @-webkit-keyframes marquee-r {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0%);}
+    }
+    @-moz-keyframes marquee-r {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+    }
+    @-ms-keyframes marquee-r {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+    }
+    @-o-keyframes marquee-r {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+    }
 
 
 
@@ -979,7 +979,7 @@ html, body{
                 
                         .project-list-txt-wrap .project-list-txt span{
                             margin: 0 5px;
-                       }
+                        }
 
         .project-btn-wrap{
             display: inline-block;
