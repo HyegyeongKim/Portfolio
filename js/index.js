@@ -58,31 +58,31 @@ $(function(){
 
 
 //typed and remove infinite
-$(function(){
-    let i = 0,
-    j = 0;
+// $(function(){
+//     let i = 0,
+//     j = 0;
 
-    const textArray = ["Hi,\u00A0 I'm\u00A0 HK","I\u00A0 like\u00A0 Creative\u00A0 Design","I\u00A0 like\u00A0 Interactive\u00A0 Design"],
-    speed = 145,
-    target = document.getElementById('type');
+//     const textArray = ["Hi,\u00A0 I'm\u00A0 HK","I\u00A0 like\u00A0 Creative\u00A0 Design","I\u00A0 like\u00A0 Interactive\u00A0 Design"],
+//     speed = 145,
+//     target = document.getElementById('type');
 
-        function txtnum(){
-            j == textArray.length - 1
-            ? j = 0
-            : j ++
-        }
+//         function txtnum(){
+//             j == textArray.length - 1
+//             ? j = 0
+//             : j ++
+//         }
 
-        function type() {
-            i < textArray[j].length
-            ? (target.innerText += textArray[j].charAt(i), i++, setTimeout(type, speed))
-            : remove()
-        }
+//         function type() {
+//             i < textArray[j].length
+//             ? (target.innerText += textArray[j].charAt(i), i++, setTimeout(type, speed))
+//             : remove()
+//         }
         
-        function remove() {
-            0 <= i
-            ? (target.innerText = target.innerText.slice(0, i), i--, setTimeout(remove, speed))
-            : (type(), txtnum())
-        }
+//         function remove() {
+//             0 <= i
+//             ? (target.innerText = target.innerText.slice(0, i), i--, setTimeout(remove, speed))
+//             : (type(), txtnum())
+//         }
         
-        type();
- });
+//         type();
+// });
