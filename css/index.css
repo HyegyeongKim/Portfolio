@@ -694,7 +694,7 @@ html, body{
     }
     .loop-wrap{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         width:100%;
     }
         .loop-wrap .loop{
